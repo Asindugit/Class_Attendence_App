@@ -1,0 +1,94 @@
+
+body{
+    background:#f4f7fb;
+    font-family:Segoe UI,sans-serif;
+}
+
+.hero{
+    background:linear-gradient(135deg,#0d6efd,#4f8dfd);
+    color:white;
+    padding:100px 0;
+}
+
+.hero h1{
+    font-size:48px;
+    font-weight:700;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.login-card{
+
+    border:none;
+    border-radius:20px;
+    transition:.3s;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.login-card:hover{
+
+    transform:translateY(-8px);
+    box-shadow:0 20px 35px rgba(0,0,0,.15);
+
+}
+
+.login-icon{
+
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    font-size:38px;
+    color:white;
+}
+
+.admin{
+    background:#0d6efd;
+}
+
+.teacher{
+    background:#198754;
+}
+
+.student{
+    background:#fd7e14;
+}
+
+.feature-box{
+
+    background:white;
+    border-radius:15px;
+    padding:30px;
+    transition:.3s;
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+
+}
+
+.feature-box:hover{
+
+    transform:translateY(-5px);
+
+}
+
+footer{
+
+    background:#0d6efd;
+    color:white;
+    padding:20px;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important;
+    transform: translateY(-2px);
+}
+
+
